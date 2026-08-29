@@ -9,7 +9,7 @@ def area(puntos):
     sumy = 0
 
     for i in range(n):
-    sumx = sumx + x[i] *y [(i + 1) % n]
+    sumx= sumx + x[i] *y [(i + 1) % n]
     sumy = sumy + y[i] * y[(i + 1) % n]
 
     return 1 / 2 * (sumx - sumy)
